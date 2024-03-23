@@ -1,18 +1,31 @@
 {
-  "name": "package",
+  "name": "chitchat1",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple chat program",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "mocha -R spec test/test.js --exit"
   },
-  "author": "",
+  "author": "Murod",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.3",
     "socket.io": "^4.7.5"
-  }
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Murod1989/chitchat1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Murod1989/chitchat1/issues"
+  },
+  "homepage": "https://github.com/Murod1989/chitchat1#readme"
 }
