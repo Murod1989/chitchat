@@ -1,7 +1,7 @@
 {
   "name": "chitchat1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Chit",
   "main": "index.js",
   "directories": {
     "test": "test"
